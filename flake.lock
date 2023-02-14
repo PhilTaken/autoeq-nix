@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "autoeq": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1672995723,
+        "narHash": "sha256-tcbeV+FQjL2CcwzFkQi464tuCLex1/CvSBafqpIsDOw=",
+        "owner": "jaakkopasanen",
+        "repo": "AutoEq",
+        "rev": "75ef88f072dc39a8241d2c7a05aa6afecde59357",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jaakkopasanen",
+        "repo": "AutoEq",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "lastModified": 1676163193,
+        "narHash": "sha256-6cTwPLtRHsRrIlKnEg3gQ9L+MYdx87eHdRqlTUi4H8Y=",
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "rev": "d3e61f845dbbb77f10900603993c6f00bdfa9fd4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "autoeq": "autoeq",
+        "nixpkgs-lib": "nixpkgs-lib"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
