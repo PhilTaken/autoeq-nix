@@ -17,6 +17,8 @@
 
     lib = import ./lib;
 
+    # output for testing/evaling using `nix eval .#presets.graphiceq`
+    # could be used for ci
     presets = {
       grapiceq = let
         mkGraphicEQ = import ./graphiceq.nix { inherit (inputs.nixpkgs-lib) lib; };
